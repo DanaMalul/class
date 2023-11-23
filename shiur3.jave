@@ -1,0 +1,157 @@
+import java.util.Scanner;
+public class Main {
+  // 1
+
+    Scanner scan=new Scanner(System.in);
+    int num;
+    System.out.println("enter number:");
+    num=scan.nextInt();
+    if (num>0) {
+      System.out.println("the number is  positive ");
+    }
+    else {
+      System.out.println("the number is negative");
+    }
+//2
+
+    Scanner scan=new Scanner(System.in);
+    System.out.println("enter number:");
+    int num1 = scan.nextInt();
+    System.out.println("enter number:");
+    int num2= scan.nextInt();
+    if (num1>=num2){
+        System.out.println(num2);
+    }
+    else{
+            System.out.println(num1 );
+
+
+  //3
+    Scanner scan=new Scanner(System.in);
+    System.out.println("enter a char :");
+    String ch1 = scan.next();
+    System.out.println("enter a char:");
+    String ch2= scan.next();
+    System.out.println("enter distance :");
+    int distance1= scan.nextInt();
+    System.out.println("enter distance :");
+    int distance2= scan.nextInt();
+    System.out.println("enter speed :");
+    int speed1= scan.nextInt();
+    System.out.println("enter speed :");
+    int speed2= scan.nextInt();
+    int total1=distance1/speed1; 
+    int total2=distance2/speed2;
+    if (total1>total2){
+
+      System.out.println(ch1);
+    }
+
+    else if (total2>total1){
+        System.out.println(ch2);
+      }
+    else {
+      System.out.println("equal");
+    }
+
+ //4
+    Scanner scan=new Scanner(System.in);     
+    
+   Scanner scan=new Scanner(System.in);
+   System.out.println("enter grade:");
+   int num1= scan.nextInt();
+   System.out.println("enter grade :");
+   int num2= scan.nextInt();
+   System.out.println("enter grade:");
+   int num3= scan.nextInt();
+   int total=num1+num2+num3;
+   int avg= total/3;
+   System.out.println(avg);
+//5
+  int num1= scan.nextInt();
+  int num2= scan.nextInt();
+  int num3= scan.nextInt();
+  if(num1<num2 && num1<num3)
+  {
+      System.out.println("the smallest number is "+num1);
+  }
+  else if(num2<num1 && num2<num3){
+      System.out.println("the smallest number is "+num2);
+  }
+  else if(num3<num1 && num3<num2)
+  {
+      System.out.println("the smallest number is "+num3);
+  }
+  else
+  {
+      System.out.println("the numbers are equal");
+  }
+  //6
+
+  public static void main(String[] args) {
+    Scanner scan = new Scanner(System.in);
+    System.out.println("enter nunber:");
+    int number = scan.nextInt();
+    if ((number > 99) && (number < 1000)) {
+      System.out.println("the number is three digit");
+      int digits = number % 10;
+      int tens = number / 10% 10;
+      int hundreds = number / 100;
+      int sum = digits + tens + hundreds;
+      System.out.println(sum);
+      if (sum % 2 == 0) {
+        System.out.println("the sum is even");
+      }
+      else {
+        System.out.println("the sum is odd");
+
+  //7 
+          Scanner scan=new Scanner(System.in);
+        System.out.println("Enter your name:");
+        String name=scan.next();
+        System.out.println("Enter your school:");
+        String school=scan.next();
+        System.out.println("The number of subjects you study is ");
+        int num=scan.nextInt();
+         System.out.println("My name is:"+name+ "\nMY school is:"+school+"\nThe number of subjects I study is:"+num);
+  //8 
+  final Scanner scanner = new Scanner(System.in);
+        System.out.println("enter how many ice creams you want to buy: ");
+        int icecreams = scanner.nextInt();
+        int unit = icecreams % 10;
+        int tens = icecreams / 10;
+
+        if (icecreams > 108) {
+            System.out.println("you can't buy ice creams");
+        } else if (icecreams <= 49) {
+            System.out.println(tens * 10 + unit * 1.2);
+        } else if (icecreams > 49 && icecreams < 55) {
+            System.out.println(50);
+        } else if (icecreams > 54 && icecreams < 108) {
+            int icecreams1 = icecreams - 54;
+            int unit1 = icecreams1 % 10;
+            int tens1 = icecreams1 / 10;
+            System.out.println(50 + (tens1 * 10) + (unit1 * 1.2));
+        } else if (icecreams == 108) {
+            System.out.println(100);
+        }
+    }
+}
+      }
+      
+    }
+  }
+
+
+  
+ 
+  
+ 
+  
+
+    
+    
+ 
+
+
+    
