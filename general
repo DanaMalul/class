@@ -1,0 +1,100 @@
+//		Scanner scan=new Scanner(System.in);
+//		System.out.println("enter a number");
+//		int num=0;
+//		num=scan.nextInt();
+//		if(num%5==0) {
+//			System.out.println("true, the number divisble by 5");
+//
+//		}
+//		else {
+//			System.out.println("false, the number is not divisble by 5");
+//		}
+		
+//		Scanner scan=new Scanner(System.in);
+//		System.out.println("enter a number");
+//		int number =0;
+//		number=scan.nextInt();
+//		int units = number%10;
+//	    int tens= number/10%10;
+//	    int thousands= number/1000%10;
+//	    int hundtous=number/1000/10;
+//	    if(units==hundtous && tens==thousands) {
+//	    	System.out.println("the number is a polindrom number");
+//	    }
+//	    
+//	    else {
+//	    	System.out.println("the number is not a polindrom number");
+//	    
+//	    }
+//		
+		
+		
+//		Scanner scan=new Scanner(System.in);
+//    	System.out.println("enter a number");
+//		int four_digit =0;
+//		four_digit=scan.nextInt();
+//		int units = four_digit%10;
+//	    int tens= four_digit/10%10;
+//	    int hundreds= four_digit/100;
+//	    int thousands=four_digit/1000;
+//	    int sum=units+tens+hundreds+thousands ;
+//	    System.out.println("the sum if all the number digits is "+sum);
+		
+//		
+//
+//		Scanner scan=new Scanner(System.in);
+//		System.out.println("enter a number");
+//		int number1 =0;
+//		number1=scan.nextInt();
+//		int negative3 = number1%10;
+//	    int positive3= number1/10%10;
+//	    int negative2= number1/1000%10;
+//	    int positive2=number1/1000%10;
+//	    int negative1=number1/10000%10;
+//	    int positive1=number1/10000/10;
+//	    int sum_pos=positive1+positive2+positive3;
+//	    int sum_neg=negative1+negative2+negative3;
+//	    if (sum_pos==sum_neg) {
+//	    	System.out.println("true");
+//	    }
+//	    else {
+//	    	System.out.println("false");
+//	    }
+	
+//	
+//			    Scanner scan=new Scanner(System.in);
+//			    String name1="";
+//			    String name2="";
+//			    String name3="";
+//			    System.out.println("enter the first name ");
+//			     name1=scan.next();
+//			    System.out.println("enter the second name ");
+//			     name2=scan.next();
+//			    System.out.println("enter the third name ");
+//			     name3=scan.next();
+//			    int num1=name1.compareTo(name2);
+//			    int num2=name1.compareTo(name3);
+//			    int num3=name2.compareTo(name3);
+//			    
+//			    if(num1>num2 && num2>num3){
+//			    	System.out.println(name1+" "+name2+""+name3);
+//			    }
+//			    else if(num2<num3&&num2>num1){
+//			    	System.out.println(name3+" "+name2+" "+name1);
+//			    }
+//			    else if(num3>num1 && num2>num3){
+//			    	System.out.println(name2+" "+name3+" "+name1);
+//			    }
+//			    else if(num1<num2 && num1>num3)
+//			    System.out.println(name2+" "+name1+" "+name3);
+//			    else if(num3>num1 && num1>num2)
+//			    System.out.println(name3+" "+name1+" "+name2);
+//			    else if (num1>num3 && num3>num2)
+//			    System.out.println(name1+" "+name3+" "+name2); 
+		
+//		
+//		        Scanner scan = new Scanner(System.in);
+//		        System.out.println("enter a 4 words");
+//		        String str=scan.nextLine();
+//		        int size=str.length();
+//		        System.out.println("the length of the string is:"+size);
